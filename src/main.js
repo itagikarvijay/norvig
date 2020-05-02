@@ -4,8 +4,8 @@ function main() {
     readObj.readFile().then(data => {
         console.log("*****************Top ten word with Syn.!*****************");
         console.log();
-        var myJSON = JSON.stringify(data);
-        console.dir(myJSON)
+        var dataJSON = JSON.stringify(data);
+        console.dir(dataJSON)
 
     });
 }
