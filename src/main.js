@@ -20,4 +20,5 @@ function printAllVals(obj) {
         }
     }
 }
+
 main();
