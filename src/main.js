@@ -9,7 +9,6 @@ function main() {
 
     });
 }
-
 function printAllVals(obj) {
     for (let k in obj) {
         if (typeof obj[k] === "object") {
